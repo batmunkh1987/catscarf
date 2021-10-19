@@ -1,0 +1,64 @@
+@import "_var";
+div.shop2{
+    min-height: 754px;
+    background-color: $fontColor;
+    padding-bottom: 2%;
+    .springHeader{
+        margin-right: 2.01406%;
+        width: 56.27969%;
+        margin-left: 21.86016%;
+        margin-top: 3.7125%;
+        margin-bottom: 1.85625%;
+        text-align: center;
+        h5{
+            font-size: .8rem;
+            display: block;
+            font-weight: 400;
+            letter-spacing: .5em;
+            text-transform: uppercase;
+            color: #1d1a19;
+            margin-bottom: 3%;
+        }
+        h1{
+            color: #1d1a19;
+            border-bottom: 1px solid #49423b;
+            letter-spacing: .05em;
+            font-style: italic;
+            font-size: 4rem;
+            text-rendering: optimizeLegibility;
+            line-height: 1;
+            vertical-align: baseline;
+            padding-bottom: 1.85625%;
+            margin-bottom: 3.7125%;
+            font-family: 'Playfair Display SC', serif;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 1.16667rem;
+            font-family: 'Alice', serif;
+        }
+    }
+}
+div.springScarf{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,315px);
+    grid-template-rows: repeat(1,380px);
+    gap:5%;
+    padding-top: 5rem;
+    justify-content: center;
+    .pic{
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .img4{
+        background-image: url(pics/spring1.jpg);
+    }
+    .img5{
+        background-image: url(pics/spring2.jpg);
+    }
+    .img6{
+        background-image: url(pics/spring3.jpg);
+    }
+}

@@ -1,0 +1,55 @@
+@import "_var";
+div.footerPic{
+    background-image: url(pics/footer.jpg);
+    min-height: 30em;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 100%;
+}
+div.footer{
+    justify-content: center;
+    background-color: $footerColor;
+    color: $fontColor;    
+    text-align: center;
+    img{
+        margin: 3% auto 0.5% auto;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+    .divCatEnd{      
+        font-weight: 400;   // asuuuh shaardlagatai
+        letter-spacing: .5em;
+        font-size: 65%;
+        left: 50%;
+        font-family:serif;
+        font-style: normal;
+        width: 100%;
+        &:hover{
+            color:$hoverColor;
+            cursor: pointer;
+        }
+    }
+    .logos{
+        margin: 2% auto;
+        img{
+            cursor: pointer;
+            margin: 0 1%;
+        }
+    }
+    .para{
+        font-family: "Playfair Display SC",serif;
+        font-size: 1.16667rem;
+        margin-bottom: 1%;
+        font-weight: 300;
+    }
+    .end{
+        width: 100%;
+        background-color: #805f1e;
+        letter-spacing: .1em;
+        font-family: "Playfair Display SC",serif;
+        font-style: normal;
+        font-size: 65%;
+        padding: 1em 0;
+    }
+}

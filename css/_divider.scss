@@ -1,0 +1,111 @@
+
+@import "_var";
+div.dividerImg{
+    min-height: 502.667px;
+    background-image: url("pics/divider.jpg");    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 100%;
+
+}
+
+div.divider{
+    background-color:#f4efde;
+    min-height: 696px;
+    div.dividerContent{        
+        padding-top: 3%;
+        margin-right: 2.01406%;
+        width: 56.27969%;
+        margin-left: 21.86016%;
+        margin-top: 3.7125%;
+        margin-bottom: 1.85625%;
+        text-align: center;
+        h5{
+            font-size: .8rem;
+            display: block;
+            font-weight: 400;
+            letter-spacing: .5em;
+            text-transform: uppercase;
+            color: #1d1a19;
+            margin-bottom: 3%;
+        }
+        h1{
+            color: #1d1a19;
+            border-bottom: 1px solid #49423b;
+            letter-spacing: .05em;
+            font-style: italic;
+            font-size: 4rem;
+            text-rendering: optimizeLegibility;
+            line-height: 1;
+            vertical-align: baseline;
+            padding-bottom: 1.85625%;
+            margin-bottom: 3.7125%;
+            text-transform: uppercase;
+            font-weight: lighter;
+        }
+        h3{
+            font-size: 1.16667rem;
+            font-family: 'Alice', serif;
+            hyphens: auto;
+            font-weight: 500;
+            vertical-align: baseline;
+            letter-spacing: .04em;
+        }
+    }
+}
+div.dividerEnd{
+    min-height: 696px;
+    div.dividerCard{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: repeat(1,31.76157%);
+        gap: 1%;
+        justify-content: center;        
+        text-align: center;
+        hr{
+            width: 50%;
+            height: 1px;
+            margin: 0 auto;
+            border-top: 1px solid #49423b;
+        }
+        
+        .pic{
+            display: inline-block;
+            background-repeat: no-repeat;
+            margin:0 auto;
+            height: 200px;
+            width: 200px;
+        }
+        .img12{
+            background-image: url(pics/mouse.gif);
+        }
+        .img13{
+            background-image: url(pics/scarf.gif);
+        }
+        .img14{
+            background-image: url(pics/needle.gif);
+        }
+        h3{
+            font-weight: none;
+            font-size: 2rem;
+            margin-bottom: .825rem;
+            line-height: 1;
+            color: #444;
+            font-family: "Playfair Display SC",serif;
+            font-style: normal;
+            padding-top: 7.425%;
+            vertical-align: baseline;
+            text-align: center;
+        }
+        p{            
+            font-family: Alice,serif;   
+            padding: 2.01406%;
+            padding-top: 3.7125%;
+            padding-bottom: 0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+    }
+}
